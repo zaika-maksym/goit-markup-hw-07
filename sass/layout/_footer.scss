@@ -15,12 +15,14 @@
     margin-left: 215px;
     margin-top: 60px;
     text-decoration: none;
-}
-.site-logo-f-text {
+    
+    &-text {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-size: 26px;
     text-decoration: none;
+    }
+    
 }
 
 .logo-color-studio-w {
@@ -87,17 +89,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
+    &-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          
+    }
     
 }
 
 
-.gotolink-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-      
-}
+
 
 .link-area {
     display: inline-flex;

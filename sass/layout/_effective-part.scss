@@ -7,15 +7,17 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     url(../img/overlay/Imgover.jpg);
     background-repeat: no-repeat;
+
+    &-main {
+        padding-top: 200px;
+        display: flex;
+        justify-content: center;
+        
+    }
     
 }
 
-.effective-part-main {
-    padding-top: 200px;
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 .effective-part-main-text {
     width: 696px;

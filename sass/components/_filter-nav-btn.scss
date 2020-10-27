@@ -15,17 +15,13 @@
     display: flex;
     padding-left: 495px;
     margin-top: 94px;
-    
-    
-}
 
-.buttons-list {
-    display: flex;
-    justify-content: space-between;
-    min-width: 611px;
-    min-height: 55px;
-    
-
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        min-width: 611px;
+        min-height: 55px;
+    }     
 }
 
 .filter-nav-btn {

@@ -139,12 +139,14 @@
     line-height: 14px;
     letter-spacing: 0.01em;
     color: #757575;
+
+    &:not(:first-child) {
+        margin-top: 10px;
+    }
     
 }
 
-.input-p:not(:first-child) {
-    margin-top: 10px;
-}
+
 
 .input-comm {
     display: block;

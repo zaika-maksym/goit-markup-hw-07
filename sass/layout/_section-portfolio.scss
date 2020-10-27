@@ -9,6 +9,18 @@
     height: 1300px;
     box-sizing: border-box;
     margin-bottom: 74px;
+
+    &-bottom {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.875;
+        letter-spacing: 0.03em;
+        color: #757575;
+        text-transform: capitalize;
+        padding-left: 25px;
+        padding-top: 2px;
+        
+    }
     
 }
 
@@ -30,19 +42,6 @@
 .lowercase {
     text-transform: lowercase;
 }
-
-.portfolio-all-bottom {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    color: #757575;
-    text-transform: capitalize;
-    padding-left: 25px;
-    padding-top: 2px;
-    
-}
-
 
 
 
