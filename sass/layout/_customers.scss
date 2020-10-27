@@ -1,0 +1,45 @@
+.customers {
+    display: block;
+    width: 1600px; /*1170px;*/
+    height: 370px;
+
+}
+
+.customers-heading {
+    display: flex;
+    justify-content: center;
+    height: 42px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 94px;
+    
+}
+
+.cs-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 91px;
+    margin-top: 50px;
+    margin-left: 215px;
+    
+}
+
+.cs-svg {
+    border-style: solid;
+    color: #AFB1B8;
+    border-width: 1.5px;
+    border-radius: 4px;
+    fill:  #AFB1B8;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+        fill: #2196F3;
+        color: #2196F3;
+        transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+

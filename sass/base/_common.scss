@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    display: block;
+    box-sizing: content-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    max-width: 1600px;
+    margin: auto;
+
+}

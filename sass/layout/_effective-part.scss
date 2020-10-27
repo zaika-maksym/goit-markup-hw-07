@@ -1,0 +1,31 @@
+.effective-part {
+    
+    display: block;
+    width: 1600px;
+    height: 600px;
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../img/overlay/Imgover.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.effective-part-main {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.effective-part-main-text {
+    width: 696px;
+    height: 120px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    
+}

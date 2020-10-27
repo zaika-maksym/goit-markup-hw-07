@@ -1,0 +1,58 @@
+.ours-team {
+    display: flexbox;
+    width: 1600px;
+    height: 708px;
+    background-color: #F5F4FA;
+    margin-top: 94px;
+    
+}
+
+.ours-team-heading-items {
+    padding-top: 50px;
+    margin-left:215px;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    min-height: 368px;
+    
+}
+.ours-team-heading {
+    padding-left: 668px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 94px;
+}
+
+.ours-team-heading-employe {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+.ours-team-heading-employe-spec {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+}
+.shadow {
+    width: 270px;
+    height: 428px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #ffffff;
+}
